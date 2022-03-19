@@ -1,0 +1,76 @@
+.sidebar{
+    flex: 1;
+    height: calc(100vh - 50px);
+    background-color: white;
+    position: sticky;
+    top: 50px;
+}
+
+.downArrow{
+display: flex;
+justify-content: right;
+padding-left: 150px;
+}
+
+.sidebarWreapper{
+    padding: 20px;
+    color: #555;
+}
+
+.sidebarMenu{
+    margin-bottom: 10px;
+}
+
+.sidebarTitle{
+    /* font-size: 18px; */
+    /* color: rgb(197, 194, 194); */
+    padding: 5px;
+}
+
+.sidebarList{
+    list-style: none;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.mainMenu{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.sidebarListItem{
+    padding: 10px 40px 0;
+    position: relative;
+}
+
+.sidebarListItem.active,
+.sidebarListItem:hover{
+    color: blue;
+}
+
+.mainMenu.active,
+.mainMenu:hover{
+    color: rgb(101, 101, 209);
+}
+
+.sidebarTopHeader{
+    height: 140px;
+    text-align: center;
+    margin: -10px;
+    cursor: pointer;
+    /* position:absolute; */
+    /* position: sticky; */
+    /* top: 50px; */
+}
+
+.login{
+    margin: 2px;
+}
+
+.sidebarIcon{
+    margin-right: 5px;
+}
+
+.link{
+    text-decoration: none;
+}

@@ -1,0 +1,74 @@
+.featuredTop{
+    margin-left: 25px;
+}
+
+.topbarIndicate{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.calander{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.indicate{
+    display: flex;
+}
+.headingName{
+    margin-top: -20px;
+}
+
+.featured{
+    display: flex;
+    cursor: pointer;
+}
+
+.featuredItem{
+    flex: 4;
+    /* background-color: white; */
+}
+.featuredTitle.active,
+.featuredTitle:hover{
+    background-color: rgb(84, 84, 206);
+    color: white;
+}
+
+.featuredTitle{
+    height: 100px;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    position:relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.featuredItem .featuredMoneyContainer{
+    padding-left: 10px;
+    justify-content: center;
+}
+.featuredItem .featuredMoneyContainer h2{
+    margin-top: -10px;
+}
+
+.featuredMoneyRate{
+    margin-left: 5px;
+    font-size: medium;
+    box-shadow: inset;
+    background-color: lightgray;
+    color: rgb(122, 165, 122);
+}
+
+.featuredMoneyRate.nagative{
+    color: red;
+}
+
+.featuredIcon{
+    padding-right: 10px;
+    /* color: #424296; */
+}
