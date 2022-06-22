@@ -11,9 +11,6 @@ import Product from "./pages/product/Product";
 import NewProduct from "./pages/newProduct/NewProduct";
 import Footer from "./components/footer/Footer";
 
-
-import "./app.css"
-
 function App() {
   return (
     <BrowserRouter>
